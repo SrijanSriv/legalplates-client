@@ -12,18 +12,6 @@ Create a new file named `.env.local` in the project root with the following cont
 NEXT_PUBLIC_API_URL=http://localhost:8000
 ```
 
-### Configuration Options
-
-#### Development (Local API)
-```bash
-NEXT_PUBLIC_API_URL=http://localhost:8000
-```
-
-#### Production (Remote API)
-```bash
-NEXT_PUBLIC_API_URL=https://your-api-domain.com
-```
-
 ### Important Notes
 
 - The `.env.local` file is ignored by git for security reasons
@@ -40,4 +28,3 @@ npm run dev
 ```
 
 The application should now connect to your API backend at the specified URL.
-
